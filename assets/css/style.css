@@ -1,0 +1,23 @@
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    padding: 0;
+}
+
+h2 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 0;
+    height: 100px;
+    line-height: 100px;
+    width: 240px;
+    font-weight: bold;
+}
+
+.navbar .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
