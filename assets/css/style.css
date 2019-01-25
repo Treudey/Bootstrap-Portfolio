@@ -1,23 +1,107 @@
-h2 {
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    background-image: url(../images/pixel_weave.png);
+    margin-bottom: 7.3rem;
+}
+
+h2,
+.text-box {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.navbar {
-    padding: 0;
+h2,
+.main-content {
+    background-color: #ffffff;
 }
 
-h2 {
+h2 { color: #4aaaa5; }
+
+p,
+.navbar-nav .nav-item .nav-link,
+label,
+.footer {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p,
+label { color: #777777; }
+
+p { line-height: 2; }
+
+.name,
+.text-box,
+.btn { 
     color: #ffffff;
     background-color: #4aaaa5;
-    margin: 0;
-    height: 100px;
-    line-height: 100px;
-    width: 240px;
-    font-weight: bold;
 }
 
-.navbar .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0;
+.name { width: 15rem; }
+
+.navbar-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    border-right: 1.5px solid #dfdfdf;
+    padding: 0 1rem;
+    line-height: 100%;
+}
+
+.heading {
+    border-bottom: 3px solid #dddddd;
+}
+
+.img-fluid { max-width: 30%; }
+
+.portfolio-box, 
+.portfolio-image, 
+.text-box { width: 23.4rem; }
+
+.portfolio-box, 
+.portfolio-image { height: 15.6rem; }
+
+.portfolio-box {
+    position: relative;
+    display: inline-block;
+}
+
+.portfolio-box:hover { 
+    outline: 5px solid #4aaaa5;
+}
+
+.text-box {
+    text-align: center;
+    position: absolute;
+    top: 66%;
+    font-size: 1.5rem;
+    line-height: 4.7rem;
+    height: 4.7rem;
+}
+
+.form-control,
+.btn { border-radius: 0; }
+
+label,
+.btn { font-size: 1.1rem; }
+
+.btn { border: 1px solid #4aaaa5; }
+
+.btn:hover {
+    background-color: #388b87;
+    border: 1px solid #388b87;
+}
+
+.footer {
+    font-size: .75rem;
+    color: #dddddd;
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2.2rem 0 .6rem;
+    border-top: 8px solid #4aaaa5
 }
