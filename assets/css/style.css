@@ -55,7 +55,10 @@ p { line-height: 2; }
     border-bottom: 3px solid #dddddd;
 }
 
-.img-fluid { max-width: 30%; }
+.img-fluid { 
+    max-width: 30%;
+    min-width: 12.5rem; 
+}
 
 .portfolio-box, 
 .portfolio-image, 
